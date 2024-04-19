@@ -1,0 +1,281 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(252, 254, 255);
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 300;
+}
+
+/*  ---- header ---- */
+
+.orange-box {
+  height: 4rem;
+  background-color: #d87b52;
+}
+
+.orange-box p {
+  color: white;
+  font-size: 20px;
+  padding-left: 7rem;
+  padding-top: 1.4rem;
+}
+
+.agency-logo {
+  background-color: #748e8f;
+  height: 5rem;
+  color: white;
+  padding-top: 0.6rem;
+  padding-left: 3rem;
+  /* object-position: left top; */
+}
+
+.agency-logo h3 {
+  font-size: 27px;
+  margin-left: 6rem;
+}
+
+.agency-logo p {
+  font-size: 18px;
+  margin-left: 6rem;
+}
+
+/* ---- navbar (ausgeblendet)---- */
+
+.old-navbar-itemlist {
+  display: flex;
+  list-style: none;
+  gap: 5rem;
+  align-items: center;
+  /* padding: 1rem 1rem 1rem 1rem; */
+  justify-content: center;
+  /* margin-top: 1rem; */
+  font-size: 20px;
+  color: transparent;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+/* ---- hero ---- */
+
+.hero-box {
+  height: 400px;
+  width: 600px;
+  display: inline-block;
+  background-color: #cfa86c;
+  position: absolute;
+  top: 300px;
+  right: 120px;
+  object-position: right top;
+  /* margin: 50rem 50rem 50rem 50rem; */
+}
+
+.hero-box h1 {
+  text-align: center;
+  color: white;
+  letter-spacing: 1px;
+  margin: 5rem 0 1.5rem 0;
+  padding: 1rem 1rem 1rem 1rem;
+  scale: 1.2;
+  filter: drop-shadow(1px 1px 1px #826944);
+}
+
+.hero-box p {
+  text-align: center;
+  font-size: 25px;
+  padding: 1rem 1rem 1rem 1rem;
+  color: white;
+  letter-spacing: 0.5px;
+  filter: drop-shadow(1px 1px 1px #826944);
+}
+
+/* ---- alternative navbar ---- */
+
+.box1 {
+  height: 120px;
+  width: 320px;
+  display: inline-block;
+  background-color: #cfa86c;
+  position: relative;
+  top: -130px;
+  left: 100px;
+  object-position: right top;
+  scale: 1.1;
+  /* margin: 50rem 50rem 50rem 50rem; */
+}
+
+.box2 {
+  height: 120px;
+  width: 320px;
+  display: inline-block;
+  background-color: #d87b52;
+  position: relative;
+  top: -124px;
+  left: 112px;
+  object-position: right top;
+  /* margin: 50rem 50rem 50rem 50rem; */
+}
+
+.box3 {
+  height: 120px;
+  width: 320px;
+  display: inline-block;
+  background-color: #748e8f;
+  position: relative;
+  top: -124px;
+  left: 100px;
+  object-position: right top;
+  /* margin: 50rem 50rem 50rem 50rem; */
+}
+
+.box4 {
+  height: 120px;
+  width: 320px;
+  display: inline-block;
+  background-color: #ebaa3d;
+  position: relative;
+  top: -124px;
+  left: 96px;
+  object-position: right top;
+  /* margin: 50rem 50rem 50rem 50rem; */
+}
+
+.navbar2-item {
+  font-size: 25px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 30px;
+  filter: drop-shadow(1px 1px 1px #826944);
+}
+
+/* ---- about us section ---- */
+
+.about-us {
+  color: #323d3d;
+  background-color: #fbf7f2;
+  padding: 4rem 2rem 2rem 2rem;
+  text-align: center;
+  letter-spacing: 0.25px;
+}
+.about-us-heading {
+  text-align: center;
+  margin-top: 4rem;
+  scale: 2.5;
+}
+
+.about-us h2 {
+  scale: 1.1;
+  margin-top: -2rem;
+}
+
+.about-us p {
+  /* letter-spacing: 0.25px; */
+  font-size: 24px;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  width: auto;
+  text-align: justify;
+  padding-bottom: 4rem;
+}
+
+/* ---- Adopt section ---- */
+
+.why-adopt {
+  color: #323d3d;
+  background-color: #ffffff;
+  padding: 4rem 2rem 2rem 2rem;
+  text-align: center;
+  letter-spacing: 0.25px;
+  margin-top: 2rem;
+}
+.adopt-heading {
+  text-align: center;
+  margin-top: 4rem;
+  scale: 2.5;
+}
+.adopt-ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  /* erzeugt Text der in den Columns auf gleicher Höhe ist: */
+  align-items: start;
+  justify-content: space-between;
+  margin-left: 8rem;
+  margin-right: 8rem;
+  margin-top: 3rem;
+}
+
+.adopt-li {
+  border-width: 1px;
+  border-color: rgb(211, 211, 211);
+  border-style: hidden;
+  background-color: #fbf7f2;
+  background-image: linear-gradient(120deg, white, #fffdfa);
+  border-radius: 0;
+  filter: drop-shadow(2px 2px 5px #eeeeee);
+  flex-basis: 100%;
+  text-align: justify;
+  letter-spacing: 0.25px;
+  font-size: 24px;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: auto;
+}
+
+.adopt-ul strong {
+  display: flex;
+  text-align: center;
+}
+
+.our-dogs {
+  color: #323d3d;
+  background-color: #fbf7f2;
+  padding: 4rem 2rem 2rem 2rem;
+  text-align: center;
+  letter-spacing: 0.25px;
+}
+.our-dogs-heading {
+  text-align: center;
+  margin-top: 4rem;
+  scale: 2.5;
+}
+.our-dogs-gallery {
+  margin-left: 8rem;
+  margin-right: 8rem;
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  gap: 1rem;
+}
+
+.our-dogs-img {
+  width: 80%;
+  height: auto;
+  position: relative;
+  border-width: 1px;
+  border-color: #323d3d;
+  border-style: solid;
+  object-fit: contain;
+}
+
+.our-dogs-caption {
+  font-size: 30px;
+}
+.contact {
+}
+.footer {
+}
